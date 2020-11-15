@@ -1,6 +1,6 @@
 ---
 title: Happiness A myth or man-made illusion
-date: "2020-11-15T16:00:00.000Z"
+date: "2020-11-15T21:00:00.000Z"
 description: Reason why humans are always unhappy.
 ---
 
@@ -93,3 +93,8 @@ realizes that such content will not be tolerated by the common man their
 ad revenue will dip and they will course correct themselves.
 
 **Moral:** Don't watch what you don't like.
+
+I would like to end the post by saying that happiness and unhappiness depend
+on how an individual deals with it. And one more interesting thing about humans
+is that we achieve happiness by solving problems, so instead of running away from
+problems if we embrace it and solve it out, our happiness will have no bounds.
