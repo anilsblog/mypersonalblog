@@ -5,41 +5,43 @@ description: Reason why humans are always unhappy.
 ---
 
 
-As a human race, we always chase happiness, let us look into it why is 
-that the case.
+As a human race, we always chased happiness.
 
 ## Society is Happy, We are happy.
 
 We as humans always prefer the herd mentality. If the Society is doing something
-we happily adopt it saying that if society at large is doing it if they are happy 
-by the transient property, we will also be happy.
+we happily adopt it. We feel if society at large is doing it, if they are happy 
+by it's transient property, we would also be happy.
 
-Let me explain with an example, Engineering is considered one of the biggest source of
-pride for people at large in the Society, being called an engineer is a matter of pride also
-to the parents, And if we add to it that the child is doing engineering from a prestigious
-the institute then this is one of the bragging statements that the parents have in front of relatives.
+Let me explain with an example.
 
-But, in all this does the parent ask the child if he comfortable with engineering, or if at all
-he is comfortable with any other branch rather than taking up sciences. This question does not arise
+Engineering ... at large in the Society.
+Being called an engineer is a matter of pride to parents.
+And to add to it that if the child is doing engineering from a prestigious institution, 
+then that becomes bragging statements for the parents in front of relatives.
+
+But in all this, does the parent ask whether the child is comfortable with engineering, or the  
+child is comfortable with any other branch rather than taking up sciences. This question does not arise
 simply because we have been bombarded with ads showcasing the might if one becomes an engineer, so
-the child is rather forced into doing what he does not like thereby sacrifice the child's happiness
-to cater to parent's wishes and that societal stand the parents have if their child pursues engineering.
+the child is rather forced into doing what he does not like thereby sacrificing the child's happiness.
+A major cause of convern is also because the child is bound to cater to parent's wishes and 
+are forced to think about the societal stand that the parents will have if they pursue engineering.
 
-**Moral:** Society is happy, the child sacrifices his happiness.
+**Moral:** To keep the society happy, a child has to sacrifice his happiness.
 
 
 ### Social Media Craze
 
 We all are affected by things that are happening on social media. People are bombarded 
 by content/stories where every person using a particular product seems happy all the time. 
-We all adopt the technology by seeing ads by very famous people
-generating the need that if they are using then it must be a great product.
+We all buy products advertised by famous personalities because we are made to believe
+that the product us being used by them and hence it is a great product.
 
 The product/technology the celebrities are using must be a great product, but we never
 question it or try to fit into our needs. We buy the product regardless of our need, and
 when the product in question does not fulfill our needs then we tend to be unhappy.
 
-**Moral:** Celebrity endorsement not equal to our need for the product.
+**Moral:** Celebrity endorsement of the product will never translate to our need for the product.
 
 ### Outrage or misdirected unhappiness
 
@@ -49,7 +51,7 @@ We as a Society are outraged by each and everything right now.
 2.  Traffic on the Road - Outraged by Slow Traffic
 3.  Bad food at Restaurant - Outraged by Bad Food
 
-Once we find something we don't like our immediate reaction would be, post
+Once we find something we don't like, our immediate reaction is to post
 it to social media without even blinking. So that a lot more people
 will follow or see your post and become more outraged and then the same
 cycle repeats all over again.
@@ -58,43 +60,44 @@ cycle repeats all over again.
 > would be post it to social media if we wait and analyze things we will see
 > and understand the things from the perspective of another user. 
 
-What I recommend is analyze the things first before posting, if you feel
-that even after speaking/analyzing things are going however then posting
-to social media is justified, heck you get greater customer support when
-you post things to social media.
+What I recommend is, analyze the things first before posting, if you feel
+that even after speaking/analyzing things are not improving, then posting
+to social media is justified, "Heck you get greater customer support when
+you post things to social media".
 
-And people read these outraged post must analyze things before we judge someone
-or pass a comment someone. The same thing happens with Whatsapp forwards, when
-someone forwards us any image a video analyses it first before forwarding the same
+And people reading such posts written in a range must analyze things first before 
+we judging someone or passing a comment someone. The same thing happens with Whatsapp 
+forwards. When someone forwards you any image or a video analyse it first before forwarding the same
 to a group of people or any other person. What separates us from other animals
-is the ability to think critically use that ability once in a while.
+is the ability to think critically. Use that ability once in a while.
 
 **Moral:** Misdirected happiness should never be directed towards outrage.
 
 #### News Media - Boon or Poison
 
-Journalism is seen as the fourth pillar of democracy, the ability of the
+Journalism is seen as the fourth pillar of democracy, the ability a
 journalist to investigate and present news to common people requires lots
 of dedication and will. But unfortunately, news media nowadays are not a
 reliable source of information.
 
-News media are turning into trial rooms, When in a country there already
-exists High courts and Supreme Courts. News media are running behind the culprit
+News media houses have turned into trial rooms, When in a country there already
+exists High courts and Supreme Courts. News media houses are running behind the culprit
 trying to trace the whereabouts of the culprit when there is already CBI, Police, 
 and existing investigating agencies present. These are some of the signs where
 the reliability of News media must be questioned.
 
-But, the reality is the consumers/people want this content hence the news media are showing
-these, without people wanting it the news media won't publish such content.
+But, the reality is the consumers/people want such content hence the news media houses 
+are showing them. The news media houses don't publish such content unless people want them to.
 
-That brings us to the end of my blog, my suggestion would be to stop seeing these
-content where such a circus is created in form of news when the news media
-realizes that such content will not be tolerated by the common man their 
-ad revenue will dip and they will course correct themselves.
+That brings us to the end of my blog. My suggestion would be to stop seeing 
+content where such a circus is created in form of news. When the news media
+houses realize that such content will not be tolerated by the common man andtheir 
+ad revenue will dip, they will course correct themselves.
 
 **Moral:** Don't watch what you don't like.
 
 I would like to end the post by saying that happiness and unhappiness depend
 on how an individual deals with it. And one more interesting thing about humans
-is that we achieve happiness by solving problems, so instead of running away from
-problems if we embrace it and solve it out, our happiness will have no bounds.
+beings is that we achieve happiness by solving our problems. So, next time instead 
+of running away from problems if we have embrace it and solve it out. Our happiness will 
+know no bounds.
