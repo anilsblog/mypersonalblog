@@ -1,18 +1,63 @@
 module.exports = {
   siteMetadata: {
+    // edit below
     title: `Anils Blog`,
-    author: {
-      name: `Anil Nair`,
-      summary: `Entreprenuer in the day, and Technology nerd by night`,
-      email:`blog@anilsblog.in`,
-    },
-    description: `A Blog about many things`,
+    author: `Anil Nair`,
+    description: `Entreprenuer in the day, and Technology nerd by night.`,
     siteUrl: `https://anilsblog.in`,
     social: {
       twitter: `anils_blog`,
     },
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-local-search",
+      options: {
+        name: "blog",
+        engine: "flexsearch",
+        engineOptions: {
+          encode: "icase",
+          tokenize: "forward",
+          async: false,
+        },
+        query: `
+          {
+            allMdx {
+              nodes {
+                id
+                fields { slug }
+                excerpt
+                rawBody
+                frontmatter {
+                  title
+                  description
+                  date(formatString: "MMMM DD, YYYY")
+                }
+              }
+            }
+          }
+        `,
+        ref: "id",
+        index: ["title", "rawBody"],
+        store: ["id", "slug", "date", "title", "excerpt", "description"],
+        normalizer: ({ data }) =>
+          data.allMdx.nodes.map(node => ({
+            id: node.id,
+            slug: node.fields.slug,
+            rawBody: node.rawBody,
+            excerpt: node.excerpt,
+            title: node.frontmatter.title,
+            description: node.frontmatter.description,
+            date: node.frontmatter.date,
+          })),
+      },
+    },
+    `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,13 +73,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 590,
             },
           },
           {
@@ -43,49 +89,55 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-vscode`,
+          },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+          {
+            resolve: `gatsby-remark-smartypants`,
+          },
         ],
+        plugins: [`gatsby-remark-images`],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-amplitude-analytics`,
       options: {
-        trackingId: `G-VJQPTRL1GQ`,
+        apiKey: "AMPLITUDE_ANALYTICS_API_KEY",
+        head: false,
+        respectDNT: true,
+                eventTypes: {
+          outboundLinkClick: 'OUTBOUND_LINK_CLICK',
+          pageView: 'PAGE_VIEW',
+        },       
+        amplitudeConfig: {
+          saveEvents: true,
+          includeUtm: true,
+          includeReferrer: true
+        },       
+        environments: ["production"],
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Anils Blog`,
-        short_name: `My Personal Blog`,
+        short_name: `ANBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
+        // edit below
         icon: `content/assets/an_icon.svg`,
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-typography`,
       options: {
-        name: "Anils Blog",
-        short_name: "My Personal Blog",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#663399",
-        display: "standalone",
-        icon: "content/assets/an_icon.svg", 
-        crossOrigin: `use-credentials`,
+        pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
   ],
 }

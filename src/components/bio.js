@@ -1,62 +1,75 @@
 /**
  * Bio component that queries for data
- * with Gatsby's useStaticQuery component
+ * with Gatsby's StaticQuery component
  *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
+ * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import styled from "styled-components"
 
-const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 80, height: 80, quality: 95) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-            email
-          }
+import { rhythm } from "../utils/typography"
+
+function Bio() {
+  return (
+    <StaticQuery
+      query={bioQuery}
+      render={data => {
+        const { author, social } = data.site.siteMetadata
+        return (
+          <Container>
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt={author}
+              style={{
+                marginRight: rhythm(1 / 2),
+                marginBottom: 0,
+                minWidth: 50,
+                borderRadius: `100%`,
+              }}
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            />
+            <p>
+              Blog Written by <strong>{author}</strong>, Website built on Gatsby 
+              a framework built upon the React library.
+              {` `}
+              <a href={`https://twitter.com/${social.twitter}`}>
+                Follow me on Twitter
+              </a>
+            </p>
+          </Container>
+        )
+      }}
+    />
+  )
+}
+
+const bioQuery = graphql`
+  query BioQuery {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 50, height: 50) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-  `)
+    site {
+      siteMetadata {
+        author
+        social {
+          twitter
+        }
+      }
+    }
+  }
+`
 
-  // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
-  const contact = 'blog@anilsblog.in'
-  const avatar = data?.avatar?.childImageSharp?.fixed
-
-  return (
-    <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `80%`,
-          }}
-        />
-      )}
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {``}.
-          Any issues with the blog content you can contact me at <strong>{contact}</strong>
-        </p>
-      )}
-    </div>
-  )
-}
+const Container = styled.div`
+  display: flex;
+`
 
 export default Bio
