@@ -76,7 +76,7 @@ Being a founder has its pros and its cons, I will be talking about some of the c
    allow it.
 2. You will have to go against your family, your relatives, your friends, your cousins
    the society if you have to fulfill your dream. Not one person will encourage you,
-   not one person will support you the only thing you will typically hear is " f 
+   not one person will support you the only thing you will typically hear is "If 
    you had got a job like 'name of relative/cousin/neighbor son' then you will not 
    have to struggle so much.
 3. Its emotional draining and taxing, you will have to explain your dream to your family/
@@ -94,7 +94,17 @@ a co-founding team member helps.
 Being a startup founder is highly risky, you will not have a stable income source, you yourself are
 responsible for the success and failure of your company.
 
-#### What I think a startup is.
+### What I think a startup is.
+
+This can be summarised in this Bhagavad Gita verse,
+
+>Karmanye vadhikaraste Ma Phaleshu Kadachana,
+>Ma Karmaphalaheturbhurma Te Sangostvakarmani
+
+>You have the right to work only but never to its fruits.
+>Let not the fruits of action be your motive, nor let your attachment be to inaction.
+
+So being a startup founder is just like, "We can do the work but not expect the benefits of work"
 
 Being a founder or creating or running a startup is not an easy task. Besides the societal and parental
 pressure running a successful startup takes a heavy toll mentally and physically. You get inspired by Facebook
