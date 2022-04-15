@@ -91,7 +91,7 @@ are showing them. The news media houses don't publish such content unless people
 
 That brings us to the end of my blog. My suggestion would be to stop seeing 
 content where such a circus is created in form of news. When the news media
-houses realize that such content will not be tolerated by the common man andtheir 
+houses realize that such content will not be tolerated by the common man and their 
 ad revenue will dip, they will course correct themselves.
 
 **Moral:** Don't watch what you don't like.
